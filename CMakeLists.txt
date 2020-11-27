@@ -194,3 +194,6 @@ add_custom_target(
         README.md
         TODO
 )
+
+set_target_properties(aob PROPERTIES FOLDER "Dependencies/ECS")
+
